@@ -25,7 +25,10 @@
           <?php get_template_part('includes/section', 'archive'); ?>
           </div>
 
-          <?php
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="blog-pagination">
+              <?php
           global $wp_query; 
 
           $big = 999999999; // need an unlikely integer
@@ -34,22 +37,23 @@
             'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
             'format' => '?paged=%#%',
             'current' => max( 1, get_query_var('paged') ),
-            'total' => $wp_query->max_num_pages
+            'total' => $wp_query->max_num_pages,
+            'prev_text' => '<i class="fa fa-angle-left"></i>',
+            'next_text' => '<i class="fa fa-angle-right"></i>',
+            'mid_size' => 1,
+            'end_size' => 0,
           ) );
           ?>
-
-
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="blog-pagination">
-                <a class="prev page-numbers" href="<?php previous_posts_link(); ?>"
+                <!-- <a class="prev page-numbers" href="<?php previous_posts_link(); ?>"
                   ><i class="fa fa-angle-left"></i
                 ></a>
                 <span class="page-numbers current">1</span>
                 <a class="page-numbers" href="#">2</a>
-                <a class="next page-numbers" href="<?php get_permalink( get_adjacent_post(false,'',false)->ID ); ?>"
+                <a class="next page-numbers" href="
+                /** <?php get_permalink( get_adjacent_post(false,'',false)->ID ); ?> **/
+                "
                   ><i class="fa fa-angle-right"></i
-                ></a>
+                ></a> -->
               </div>
               <!-- /.blog-pagination -->
             </div>
