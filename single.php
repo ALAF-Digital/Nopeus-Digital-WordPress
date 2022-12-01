@@ -18,13 +18,19 @@
       </section>
       <!--Page Header End-->
       
-      <!--News Details Start-->
+     
       <section class="news-details">
         <div class="container">
           <div class="row">
+
+
+           <!--News Details Start-->
             <div class="col-xl-8 col-lg-7">
-            <?php get_template_part('includes/section', 'single'); ?>
+              <?php get_template_part('includes/section', 'single'); ?>
             </div>
+            <!--News Details End-->
+
+            <!--News Sidebar Start-->
             <div class="col-xl-4 col-lg-5">
               <div class="sidebar">
                 <div class="sidebar__single sidebar__post">
@@ -79,27 +85,43 @@
                 </div>
                 <div class="sidebar__single sidebar__category">
                   <h3 class="sidebar__title">Categories</h3>
+                  
                   <ul class="sidebar__category-list list-unstyled">
-                    <li class="active">
-                      <a href="blog-details.html"
-                        >News <span class="fa fa-angle-right"></span
-                      ></a>
-                    </li>
-                    <li>
-                      <a href=""
-                        >Events <span class="fa fa-angle-right"></span
-                      ></a>
-                    </li>
-                    <li>
-                      <a href=""
-                        >Business & Finance
-                        <span class="fa fa-angle-right"></span
-                      ></a>
-                    </li>
+                      <?php
+                        $categories = get_categories( array(
+                          'orderby' => 'name',
+                          'order'   => 'ASC'
+                        ) );
+
+                        foreach( $categories as $category ) {
+                          
+
+                          $category_link = sprintf( 
+                            '<a href="%1$s" alt="%2$s">%3$s <span class="fa fa-angle-right"></span
+                            ></a>',
+                            esc_url( get_category_link( $category->term_id ) ),
+                            esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ),
+                            esc_html( $category->name )
+                          );
+
+                          if( is_category($category->name) ) : 
+                            echo '<li class="active">' . sprintf( esc_html__( '%s', 'textdomain' ), $category_link ) . '</li> ';
+                          else:
+                          echo '<li>' . sprintf( esc_html__( '%s', 'textdomain' ), $category_link ) . '</li> ';
+                          endif;
+                        
+                      
+                        } 
+
+                      ?>
+              
+                   
                   </ul>
                 </div>
               </div>
             </div>
+            <!--News Sidebar End-->
+
           </div>
         </div>
       </section>

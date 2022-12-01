@@ -623,11 +623,11 @@
     margin-top: 23px;
   }
 
-  .testimonial-one__text {
-    /* font-size: 25px;
+  /* .testimonial-one__text {
+    font-size: 25px;
     line-height: 45px;
-    padding-bottom: 36px; */
-  }
+    padding-bottom: 36px;
+  } */
 
   .trusted-one__inner {
     align-items: baseline;
@@ -1271,51 +1271,10 @@
 }
 
 /*--------------------------------------------------------------
-# Main Menu All Responsice Css
+# Main Menu Left All Responsice Css
 --------------------------------------------------------------*/
-@media only screen and (min-width: 1480px) and (max-width: 1580px) {
-  /* .main-menu-wrapper__call {
-    display: none;
-  } */
 
-  .main-menu-wrapper__call-number {
-    display: none;
-  }
-
-  .main-menu-wrapper__search-cat {
-    margin-left: 0;
-  }
-}
-
-@media only screen and (min-width: 1356px) and (max-width: 1479px) {
-  .main-menu-wrapper__call {
-    display: none;
-  }
-
-  .main-menu-wrapper__call-number {
-    display: none;
-  }
-
-  .main-menu-wrapper__search-cat {
-    margin-left: 0;
-  }
-}
-
-/* @media only screen and (min-width: 1200px) and (max-width: 1400) {
-  .main-menu-wrapper__call {
-    display: none;
-  }
-
-  .main-menu-wrapper__call-number {
-    display: none;
-  }
-
-  .main-menu-wrapper__search-cat {
-    margin-left: 0;
-  }
-} */
-
-@media only screen and (min-width: 992px) and (max-width: 1355px) {
+@media only screen and (min-width: 992px) and (max-width: 1350px) {
   .main-menu .mobile-nav__toggler {
     padding: 36px 0;
     display: inline-block;
@@ -1331,6 +1290,7 @@
   }
 }
 
+/* Hamburger  Only on right */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main-menu .mobile-nav__toggler {
     padding: 36px 0;
@@ -1355,15 +1315,16 @@
   }
 }
 
+/* Hamburger Menu Only on right */
 @media (max-width: 767px) {
   .main-menu .mobile-nav__toggler {
     padding: 36px 0;
     display: inline-block;
   }
 
-  .main-menu-wrapper__right {
+  /* .main-menu-wrapper__right {
     display: none;
-  }
+  } */
 
   .main-menu-wrapper__logo {
     margin-right: 0px;
@@ -1418,5 +1379,30 @@
 
   .main-menu-three .mobile-nav__toggler:hover {
     color: var(--VJ-black);
+  }
+}
+
+/*--------------------------------------------------------------
+# Main Menu Right All Responsice Css
+--------------------------------------------------------------*/
+/* Display WhatsApp CTA */
+@media (min-width: 1501px) {
+}
+
+/* Display Only WhatsApp Icon */
+@media (min-width: 1351px) and (max-width: 1500px) {
+  .main-menu-wrapper__call-number {
+    display: none;
+  }
+
+  .main-menu-wrapper__search-cat {
+    margin-left: 0;
+  }
+}
+
+/* Do not display WhatsApp CTA */
+@media (max-width: 767px) {
+  .main-menu-wrapper__right {
+    display: none;
   }
 }

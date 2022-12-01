@@ -4,7 +4,7 @@
               <!--News One Single-->
               <div class="news-one__single">
                 <div class="news-one__img">
-                  <img src="assets/images/blog/index_news_thumb_1.jpg" alt="" />
+                  <img src=" <?php the_post_thumbnail_url(); ?> " alt="" />
                   <a href="<?php the_permalink(); ?>">
                     <span class="news-one__plus"></span>
                   </a>
@@ -30,11 +30,7 @@
                         ><i class="far fa-clock"></i>  <?php the_date(); ?></a
                       >
                     </li>
-                    <li>
-                      <a href="<?php the_permalink(); ?>"
-                        ><i class="far fa-map"></i> Finland</a
-                      >
-                    </li>
+              
                   </ul>
                 </div>
               </div>

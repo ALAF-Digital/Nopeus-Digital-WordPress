@@ -116,6 +116,8 @@ add_action( 'wp_enqueue_scripts', 'vendorjunctiongroup_scripts' );
  * Theme Options
  */
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
+add_theme_support('widgets');
 
 
 /**
@@ -164,6 +166,46 @@ function wpdocs_add_menu_parent_class( $items ) {
 add_filter( 'wp_nav_menu_objects', 'wpdocs_add_menu_parent_class' );
 
 
+/**
+ * Add hotlinked image
+ */
+function catch_that_image() {
+    global $post, $posts;
+    $first_img = '';
+    ob_start();
+    ob_end_clean();
+    $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+    $first_img = $matches [1] [0];
+  
+    if(empty($first_img)){ //Defines a default image
+      $first_img = "/images/default.jpg";
+    }
+    return $first_img;
+  }
 
+/**
+ * Sidebars
+ */
+
+ function my_sidebars(){
+    register_sidebar(
+        array(
+            'name' => 'Blog Sidebar',
+            'id' => 'blog-sidebar',
+            'before_title' => '<h4 class="widget-title">',
+            'after_title' => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name' => 'Blog Sidebar',
+            'id' => 'blog-sidebar',
+            'before_title' => '<h4 class="widget-title">',
+            'after_title' => '</h4>'
+        )
+    );
+
+ }
+add_action('widgets_init', 'my_sidebars');
 
 ?>
