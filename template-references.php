@@ -38,9 +38,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/1.jpg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/1.jpg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -78,9 +78,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/2.jpg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/2.jpg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -120,9 +120,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/3.jpg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/3.jpg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -154,9 +154,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/7.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/7.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -186,9 +186,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/8.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/8.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -220,9 +220,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/4.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/4.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -254,9 +254,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/5.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/5.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -290,9 +290,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/6.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/6.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -324,9 +324,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/9.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/9.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -362,9 +362,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/10.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/10.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -393,9 +393,9 @@
                 <div class="testimonial-one__single">
                   <div class="testimonial-one__client-info">
                     <div class="testimonial-one__client-img">
-                      <img src="assets/images/testimonial/11.jpeg" alt="" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/11.jpeg" alt="" />
                       <div class="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
                       </div>
                     </div>
                   </div>

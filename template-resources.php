@@ -25,11 +25,11 @@
       </section>
       <!--Page Header End-->
 
-      <section class="trusted-one">
+      <!-- <section class="trusted-one">
         <div class="container">
           <div class="row">
             <div class="col-xl-4 wow fadeInLeft" data-wow-delay="100ms">
-              <!--Services Two Single-->
+              
               <div class="services-two__single">
                 <div class="services-two__icon">
                   <span class="fa-solid fa-book-open"></span>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="col-xl-4 wow fadeInLeft" data-wow-delay="100ms">
-              <!--Services Two Single-->
+              
               <div class="services-two__single">
                 <div class="services-two__icon">
                   <span class="fa-solid fa-database"></span>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="col-xl-4 wow fadeInLeft" data-wow-delay="100ms">
-              <!--Services Two Single-->
+              
               <div class="services-two__single">
                 <div class="services-two__icon">
                   <span class="fa-solid fa-file"></span>
@@ -77,7 +77,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="welcome-two" id="ourfocus" style="background: none">
         <div class="container">
@@ -107,7 +107,7 @@
             <div class="col-xl-12">
               <div class="welcome-two__right">
                 <div class="section-title text-left">
-                  <h2 class="section-title__title"><i class="fa-solid fa-database"></i> Brochures & Datasheets</h2>
+                  <h2 class="section-title__title"><i class="fa-solid fa-book-open"></i> Brochures & Datasheets</h2>
                 </div>
 
                 <div class="quality-work__tab-box tabs-box">
@@ -116,24 +116,26 @@
                     <div class="tab active-tab" id="one" style="display: block">
                       <div class="tab-content__inner">
                         <div class="welcome-two__content">
-                          <ul class="list-unstyled welcome-two__points resource-center-list">
-                            <li>
-                              <div class="icon">
-                                <i class="fa-solid fa-download"></i>
-                              </div>
-                              <div class="text">
-                                <p>BBA Data Sheet</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa-solid fa-download"></i>
-                              </div>
-                              <div class="text">
-                                <p>Company profile</p>
-                              </div>
-                            </li>
-                          </ul>
+                          
+
+                          <?php 
+                              $rows = get_field('brochures_&_datasheets');
+                              if( $rows ) {
+                                  echo '<ul class="list-unstyled welcome-two__points resource-center-list">';
+                                  foreach( $rows as $row ) {
+                                      $title = $row['title'];
+                                      $document = $row['document'];
+                                      echo '<li><div class="icon"><i class="fa-solid fa-download"></i></div><div class="text">';
+                                          echo $title;
+                                      echo '</div></li>';
+                                  }
+                                  echo '</ul>';
+                              }
+                            ?>
+
+
+                            
+                          
                         </div>
                       </div>
                     </div>

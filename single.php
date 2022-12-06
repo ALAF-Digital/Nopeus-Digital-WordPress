@@ -27,13 +27,19 @@
            <!--News Details Start-->
             <div class="col-xl-8 col-lg-7">
               <?php get_template_part('includes/section', 'single'); ?>
+
+              <div class="service-details__how-help-img">
+                  <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>" class="thm-btn abt__btn"
+                    >Back to News & Events</a
+                  >
+                </div>
             </div>
             <!--News Details End-->
 
             <!--News Sidebar Start-->
             <div class="col-xl-4 col-lg-5">
               <div class="sidebar">
-                <div class="sidebar__single sidebar__post">
+                <!-- <div class="sidebar__single sidebar__post">
                   <h3 class="sidebar__title">Related Posts</h3>
                   <ul class="sidebar__post-list list-unstyled">
                     <li>
@@ -82,7 +88,7 @@
                       </div>
                     </li>
                   </ul>
-                </div>
+                </div> -->
                 <div class="sidebar__single sidebar__category">
                   <h3 class="sidebar__title">Categories</h3>
                   

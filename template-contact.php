@@ -89,7 +89,10 @@
                 <div class="contact-details__title-box">
                   <h4 class="contact-details__title">Write To Us</h4>
                 </div>
-                <form
+
+                <?php echo apply_shortcodes( '[contact-form-7 id="82" title="Write To Us"]' ); ?>
+
+                <!-- <form
                   action="assets/inc/sendemail.php"
                   class="comment-one__form contact-form-validated"
                   novalidate="novalidate"
@@ -143,7 +146,8 @@
                       </div>
                     </div>
                   </div>
-                </form>
+                </form> -->
+
               </div>
             </div>
           </div>

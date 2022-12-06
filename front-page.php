@@ -39,7 +39,7 @@
                         South Asia
                       </h5>
                       <h2>Beyond Borders<br />Accelerator Program</h2>
-                      <a href="beyond-borders.html" class="thm-btn"
+                      <a href="what-we-do/bb-accelerator-program/" class="thm-btn"
                         >Discover More
                       </a>
                     </div>
@@ -63,7 +63,7 @@
                   <div class="col-xl-7">
                     <div class="main-slider__content">
                       <h2>International<br />Business<br />Development</h2>
-                      <a href="what-we-do.html#IBD" class="thm-btn"
+                      <a href="<?php echo get_site_url(); ?>/what-we-do/#IBD" class="thm-btn"
                         >Discover More</a
                       >
                     </div>
@@ -87,7 +87,7 @@
                   <div class="col-xl-7">
                     <div class="main-slider__content">
                       <h2>Channel<br />Sales<br />Ecosystem</h2>
-                      <a href="what-we-do.html#CSE" class="thm-btn"
+                      <a href="<?php echo get_site_url(); ?>/what-we-do/#CSE" class="thm-btn"
                         >Discover More</a
                       >
                     </div>
@@ -111,7 +111,7 @@
                   <div class="col-xl-7">
                     <div class="main-slider__content">
                       <h2>Structured<br />Sales<br />Process</h2>
-                      <a href="what-we-do.html#SSP" class="thm-btn"
+                      <a href="<?php echo get_site_url(); ?>/what-we-do/#SSP" class="thm-btn"
                         >Discover More</a
                       >
                     </div>
@@ -135,7 +135,7 @@
                   <div class="col-xl-7">
                     <div class="main-slider__content">
                       <h2>In-Country<br />Operations<br />Management</h2>
-                      <a href="what-we-do.html#IOM" class="thm-btn"
+                      <a href="<?php echo get_site_url(); ?>/what-we-do/#IOM" class="thm-btn"
                         >Discover More</a
                       >
                     </div>
@@ -283,12 +283,12 @@
               >
                 <div class="welcome-one__feature-content">
                   <h3 class="welcome-one__feature-title">
-                    <a href="what-we-do.html#IBD"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IBD"
                       >International Business Development<br /><br
                     /></a>
                   </h3>
                   <div class="welcome-one__feature-arrow">
-                    <a href="what-we-do.html#IBD"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IBD"
                       ><i class="fa-solid fa-arrow-right"></i
                     ></a>
                   </div>
@@ -306,12 +306,12 @@
               >
                 <div class="welcome-one__feature-content">
                   <h3 class="welcome-one__feature-title">
-                    <a href="what-we-do.html#CSE"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#CSE"
                       >Sales Channel Ecosystem<br /><br /><br
                     /></a>
                   </h3>
                   <div class="welcome-one__feature-arrow">
-                    <a href="what-we-do.html#CSE"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#CSE"
                       ><i class="fa-solid fa-arrow-right"></i
                     ></a>
                   </div>
@@ -330,12 +330,12 @@
               >
                 <div class="welcome-one__feature-content">
                   <h3 class="welcome-one__feature-title">
-                    <a href="what-we-do.html#SSP"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#SSP"
                       >Structured Sales Process<br /><br /><br
                     /></a>
                   </h3>
                   <div class="welcome-one__feature-arrow">
-                    <a href="what-we-do.html#SSP"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#SSP"
                       ><i class="fa-solid fa-arrow-right"></i
                     ></a>
                   </div>
@@ -353,12 +353,12 @@
               >
                 <div class="welcome-one__feature-content">
                   <h3 class="welcome-one__feature-title">
-                    <a href="what-we-do.html#IOM"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IOM"
                       >In-Country Operations Management<br /><br
                     /></a>
                   </h3>
                   <div class="welcome-one__feature-arrow">
-                    <a href="what-we-do.html#IOM"
+                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IOM"
                       ><i class="fa-solid fa-arrow-right"></i
                     ></a>
                   </div>
@@ -1311,108 +1311,61 @@
             <h2 class="section-title__title">News & Articles</h2>
           </div>
           <div class="row">
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-              <!--News One Single-->
-              <div class="news-one__single">
-                <div class="news-one__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/index_news_thumb_1.jpg" alt="" />
-                  <a href="news-event-details.html">
-                    <span class="news-one__plus"></span>
-                  </a>
-                </div>
-                <div class="news-one__content">
-                  <p class="news-one__sub-title">News</p>
-                  <h3 class="news-one__title">
-                    <a href="news-event-details.html"
-                      >Vitalsignum, finland and vendor junction signs
-                      development agreement for market entry.</a
-                    >
-                  </h3>
-                  <ul class="list-unstyled news-one__meta">
-                    <li>
-                      <a href="news-event-details.html"
-                        ><i class="far fa-clock"></i> February 28 2020</a
-                      >
-                    </li>
-                    <li>
-                      <a href="news-event-details.html"
-                        ><i class="far fa-map"></i> Finland</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
+          <?php 
+            // the query
+            $the_query = new WP_Query( array(
+                'posts_per_page' => 3,
+            )); 
+          ?>
+
+          <?php if ( $the_query->have_posts() ) : ?>
+            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
               <!--News One Single-->
               <div class="news-one__single">
                 <div class="news-one__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/index_news_thumb_2.jpg" alt="" />
-                  <a href="news-event-details.html">
+                  <img src=" <?php the_post_thumbnail_url(); ?> " alt="" />
+                  <a href="<?php the_permalink(); ?>">
                     <span class="news-one__plus"></span>
                   </a>
                 </div>
                 <div class="news-one__content">
-                  <p class="news-one__sub-title">News</p>
+                  <p class="news-one__sub-title">
+                  <?php 
+                    $categories = get_the_category();
+
+                    if ( ! empty( $categories ) ) {
+                        echo esc_html( $categories[0]->name );	
+                    }
+                    ?>
+                  </p>
                   <h3 class="news-one__title">
-                    <a href="news-event-details.html"
-                      >Kajaani university of finland to train 1 million
-                      pakistani students on disruptive-technologies.</a
+                    <a href="<?php the_permalink(); ?>"
+                      ><?php the_title(); ?></a
                     >
                   </h3>
                   <ul class="list-unstyled news-one__meta">
                     <li>
-                      <a href="news-event-details.html"
-                        ><i class="far fa-clock"></i> February 07, 2020</a
+                      <a href="<?php the_permalink(); ?>"
+                        ><i class="far fa-clock"></i>  <?php the_date(); ?></a
                       >
                     </li>
-                    <li>
-                      <a href="news-event-details.html"
-                        ><i class="far fa-map"></i> Finland</a
-                      >
-                    </li>
+              
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-              <!--News One Single-->
-              <div class="news-one__single">
-                <div class="news-one__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/index_news_thumb_3.jpg" alt="" />
-                  <a href="news-event-details.html">
-                    <span class="news-one__plus"></span>
-                  </a>
-                </div>
-                <div class="news-one__content">
-                  <p class="news-one__sub-title">News</p>
-                  <h3 class="news-one__title">
-                    <a href="news-event-details.html"
-                      >Mediracer appoints vendor junction for business
-                      development in middle east and south asia.</a
-                    >
-                  </h3>
-                  <ul class="list-unstyled news-one__meta">
-                    <li>
-                      <a href="news-event-details.html"
-                        ><i class="far fa-clock"></i> October 22 2019</a
-                      >
-                    </li>
-                    <li>
-                      <a href="news-event-details.html"
-                        ><i class="far fa-map"></i> Finland</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
+            <?php endwhile; endif; ?>
+            <?php wp_reset_postdata(); ?>
+                      
 
             <div class="welcome-one__find-solutions" style="margin-top: 1em">
               <p class="welcome-one__find-solutions-text">
-                <a href="news-events.html">Read More</a>
+                <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Read More</a>
               </p>
             </div>
           </div>

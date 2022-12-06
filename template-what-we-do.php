@@ -93,7 +93,7 @@
               <div class="service-details__right">
                 <!-- <div class="service-details__img">
                   <img
-                    src="assets/images/backgrounds/sds_business_dev.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/sds_business_dev.jpg"
                     alt=""
                   />
                 </div> -->
@@ -158,7 +158,7 @@
                     <div class="col-xl-12">
                       <div class="service-details__how-help-single">
                         <div class="service-details__how-help-img">
-                          <img src="assets/images/services/GEOS.png" alt="" />
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/GEOS.png" alt="" />
                         </div>
                         <!-- <div class="service-details__how-help-content">
                           <p class="service-details__how-help-text-1">
@@ -172,7 +172,7 @@
                       <div class="service-details__how-help-single">
                         <div class="service-details__how-help-img">
                           <img
-                            src="assets/images/backgrounds/service-details1_thumb3.jpg"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/service-details1_thumb3.jpg"
                             alt=""
                           />
                         </div>
@@ -251,7 +251,7 @@
                   <div class="col-xl-12">
                     <div class="service-details__how-help-single">
                       <div class="service-details__how-help-img">
-                        <img src="assets/images/services/IBD.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/IBD.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -273,7 +273,7 @@
                   <div class="col-xl-12">
                     <div class="service-details__how-help-single">
                       <div class="service-details__how-help-img">
-                        <img src="assets/images/services/SCE.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/SCE.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -341,7 +341,7 @@
                   <div class="col-xl-12">
                     <div class="service-details__how-help-single">
                       <div class="service-details__how-help-img">
-                        <img src="assets/images/services/SSP.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/SSP.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -364,7 +364,7 @@
                   <div class="col-xl-12">
                     <div class="service-details__how-help-single">
                       <div class="service-details__how-help-img">
-                        <img src="assets/images/services/SMD.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/SMD.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -388,7 +388,7 @@
                   <div class="col-xl-12">
                     <div class="service-details__how-help-single">
                       <div class="service-details__how-help-img">
-                        <img src="assets/images/services/IBM.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/IBM.png" alt="" />
                       </div>
                     </div>
                   </div>
