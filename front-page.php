@@ -375,7 +375,7 @@
           <div class="welcome-one__find-solutions">
             <p class="welcome-one__find-solutions-text">
               Learn more about our team and specialities
-              <a href="about.html">View About Us</a>
+              <a href="<?php echo get_site_url(); ?>/about-us">View About Us</a>
             </p>
           </div>
         </div>
@@ -400,7 +400,7 @@
                 </div>
                 <div class="case-one__content">
                   <h3 class="case-one__title">
-                    <a href="case-details.html">Information<br />Technology</a>
+                    <a href="#">Information<br />Technology</a>
                   </h3>
                   <p class="case-one__tagline">
                     <i class="fa fa-arrow-right"></i> Cyber Security<br />
@@ -423,7 +423,7 @@
                 </div>
                 <div class="case-one__content">
                   <h3 class="case-one__title">
-                    <a href="case-details.html">Life Science & Healthcare</a>
+                    <a href="#">Life Science & Healthcare</a>
                   </h3>
                   <p class="case-one__tagline">
                     <i class="fa fa-arrow-right"></i> Health Tech <br />
@@ -446,7 +446,7 @@
                 </div>
                 <div class="case-one__content">
                   <h3 class="case-one__title">
-                    <a href="case-details.html"
+                    <a href="#"
                       >Clean Tech & Circular Economy
                     </a>
                   </h3>
@@ -469,7 +469,7 @@
                 </div>
                 <div class="case-one__content">
                   <h3 class="case-one__title">
-                    <a href="case-details.html">And<br /><br /></a>
+                    <a href="#">And<br /><br /></a>
                   </h3>
                   <p class="case-one__tagline">
                     <i class="fa fa-arrow-right"></i> Edutech<br />
@@ -909,7 +909,7 @@
                 <h2 class="our-mission__title">
                   Beyond Borders <br />Accelerator Program
                 </h2>
-                <a href="beyond-borders.html" class="thm-btn our-mission__btn"
+                <a href="what-we-do/bb-accelerator-program/" class="thm-btn our-mission__btn"
                   >Discover More</a
                 >
               </div>
@@ -1109,7 +1109,7 @@
                 style="margin-bottom: 1em"
               >
                 <p class="welcome-one__find-solutions-text">
-                  <a href="references.html">Read More</a>
+                  <a href="what-we-do/references">Read More</a>
                 </p>
               </div>
             </div>
@@ -1157,7 +1157,7 @@
                     <span class="icon-team-leader"></span>
                   </div>
                   <h3 class="trusted-one__title">
-                    <a href="team.html"
+                    <a href="#"
                       >Pilot Markets for Products & Services</a
                     >
                   </h3>

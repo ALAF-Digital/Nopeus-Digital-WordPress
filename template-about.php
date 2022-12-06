@@ -70,7 +70,7 @@
                   internationally with global reach for its clients.
                 </p>
 
-                <a href="what-we-do.html" class="thm-btn abt__btn"
+                <a href="/what-we-do" class="thm-btn abt__btn"
                   >Discover More</a
                 >
               </div>

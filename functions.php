@@ -128,6 +128,7 @@ register_nav_menus(
         'header' => __('Header Menu', 'vendorjunctiongroup'),
         'mobile' => __('Mobile Menu', 'vendorjunctiongroup'),
         'footer' => __('Footer Menu', 'vendorjunctiongroup'),
+        'footer-services' => __('Footer Services', 'vendorjunctiongroup'),
     )
 );
 

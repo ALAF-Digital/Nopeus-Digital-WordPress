@@ -443,18 +443,18 @@
     selector.find('li').each(function () {
       let anchor = $(this).find('a');
       if ($(anchor).attr('href') == FileName) {
-        // $(this).addClass('current');
+        $(this).addClass('current');
       }
     });
     // if any li has .current elmnt add class
     selector.children('li').each(function () {
       if ($(this).find('.current').length) {
-        // $(this).addClass('current');
+        $(this).addClass('current');
       }
     });
     // if no file name return
     if ('' == FileName) {
-      // selector.find('li').eq(0).addClass('current');
+      selector.find('li').eq(0).addClass('current');
     }
   }
 

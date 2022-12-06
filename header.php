@@ -63,27 +63,6 @@
                   'menu_class' => 'main-menu__list',
                 ) ); ?>
 
-
-                <!-- <ul class="main-menu__list">
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-
-                  <li>
-                    <a href="about.html">About Us</a>
-                  </li>
-
-                  <li>
-                    <a href="what-we-do.html">What We Do</a>
-                  </li>
-                  <li>
-                    <a href="beyond-borders.html">BB Accelerator Program</a>
-                  </li>
-                  <li><a href="references.html">References</a></li>
-                  <li><a href="news-events.html">News &amp; Events</a></li>
-                  <li><a href="resources.html">Resource Center</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                </ul> -->
               </div>
             </div>
             <div class="main-menu-wrapper__right">

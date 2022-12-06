@@ -14,7 +14,7 @@
                       Success Stories . Industry Reports .
                     </p>
                   </h3>
-                  <a href="resources.html" class="thm-btn cta-one__btn"
+                  <a href="/resource-center" class="thm-btn cta-one__btn"
                     >Discover More</a
                   >
                 </div>
@@ -79,41 +79,21 @@
                   'container' => 'ul',
                   'menu_class' => 'footer-widget__explore-list list-unstyled clearfix',
                 ) ); ?>
-                  <!-- <h3 class="footer-widget__title">Links</h3> -->
-                  <!-- <ul
-                    class="footer-widget__explore-list list-unstyled clearfix"
-                  >
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="what-we-do.html">What We Do</a></li>
-                    <li><a href="references.html">References</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                  </ul> -->
-                  <ul
-                    class="footer-widget__explore-list footer-widget__explore-list-two list-unstyled clearfix"
-                  >
-                    <li>
-                      <a href="what-we-do.html#IBD"
-                        >International Business Development</a
-                      >
-                    </li>
-                    <li>
-                      <a href="what-we-do.html#CSE">Channel Sales Ecosystem</a>
-                    </li>
-                    <li>
-                      <a href="what-we-do.html#SSP">Structured Sales Process</a>
-                    </li>
-                    <li>
-                      <a href="what-we-do.html#IOM"
-                        >In-Country Operations Management</a
-                      >
-                    </li>
-                  </ul>
+        
+                  <?php wp_nav_menu( array(
+                  'theme_location' => 'footer-services',
+                  'container' => 'ul',
+                  'menu_class' => 'footer-widget__explore-list footer-widget__explore-list-two list-unstyled clearfix',
+                ) ); ?>
+
+
+              
                 </div>
                 <div
                   class="footer-widget__column footer-widget__explore clearfix locfoot"
                 >
                   <h3 class="footer-widget__title">
-                    <a href="/contact.html#InterOffice">Our Offices</a>
+                    <a href="/contact-us/#InterOffice">Our Offices</a>
                   </h3>
                   <ul
                     class="footer-widget__explore-list list-unstyled clearfix"

@@ -154,7 +154,7 @@
                 Global Growth Ecosystem & Operations System™ [GEOS]
               </h5>
               <div class="service-details__how-help-img">
-                <a href="what-we-do.html"
+                <a href="/what-we-do"
                   ><img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/GEOS.png" alt=""
                 /></a>
               </div>
@@ -162,7 +162,7 @@
                 style="margin-top: 3rem"
                 class="service-details__how-help-img text-center"
               >
-                <a href="what-we-do.html" class="thm-btn abt__btn"
+                <a href="/what-we-do" class="thm-btn abt__btn"
                   >Discover More</a
                 >
               </div>
@@ -251,9 +251,7 @@
                 <h2 class="breaker__title">
                   Participate in the <br />Beyond Borders Accelerator Program
                 </h2>
-                <!-- <a href="about.html" class="thm-btn our-mission__btn"
-                  >Discover More</a
-                > -->
+             
               </div>
             </div>
           </div>
