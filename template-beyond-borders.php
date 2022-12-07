@@ -19,8 +19,58 @@
         <div class="page-header-shape-2 float-bob-x-7"></div>
         <div class="container">
           <div class="page-header__inner">
+          <h5 style="color: var(--VJ-white)">
+              Unlocking Growth Across the Middle East, Africa, and South Asia
+            </h5>
             <h1><?php the_title(); ?></h1>
           </div>
+          <h5
+            id="proudPartnerText"
+            style="margin-top: 1rem; color: var(--VJ-white)"
+          >
+            We Are Proud To Be Part Of The
+            <a
+              target="_blank"
+              href="https://www.businessfinland.fi/en/for-finnish-customers/services/international-growth/international-accelerators/accelerators-in-india-apac"
+              >Business Finland Accelerator Programs</a
+            >
+            <svg width="1rem" aria-label="Will move to new service"
+            xmlns="http://www.w3.org/2000/svg" xmlns:=""
+            xlink="http://www.w3.org/1999/xlink" viewBox="0 0 73.18 72.86">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: CurrentColor;
+                }
+
+                .cls-2 {
+                  clip-path: url(#clip-path);
+                }
+
+                .cls-3 {
+                  fill: CurrentColor;
+                }
+              </style>
+              <clipPath id="clip-path" transform="translate(-8.41 -8.57)">
+                <rect class="cls-1" width="90" height="90"></rect>
+              </clipPath>
+            </defs>
+            <title>Asset 11</title>
+            <g id="Layer_2" data-name="Layer 2">
+              <g id="Layer_1-2" data-name="Layer 1">
+                <g class="cls-2">
+                  <polygon
+                    class="cls-3"
+                    points="73.18 0 73.18 31.55 69.18 31.55 69.18 6.82 35.07 40.93 32.24 38.1 66.34 4 41.63 4 41.63 0 73.18 0"
+                  ></polygon>
+                  <polygon
+                    class="cls-3"
+                    points="59.18 72.86 0 72.86 0 13.68 29.59 13.68 29.59 17.68 4 17.68 4 68.86 55.18 68.86 55.18 42.75 59.18 42.75 59.18 72.86"
+                  ></polygon>
+                </g>
+              </g>
+            </g>
+          </h5>
         </div>
       </section>
       <!--Page Header End-->
@@ -41,14 +91,10 @@
 
             <div class="offset-xl-1 col-xl-11">
               <p>
-                Beyond Borders Accelerator Program is a Fast-Track for Startups,
-                Small & Medium Sized Companies and Companies Seeking Pilot
-                Markets to establish their brand and accelerate international
-                sales across the Middle East, Africa, and South Asia.
+              Beyond Borders Accelerator Program is a Fast-Track for Startups, SMEs, Mid-Size Organizations and Companies seeking Pilot Markets to establish their brand and accelerate international sales across the Middle East, Africa, and South Asia.
               </p>
               <p>
-                The program generates scalable and sustainable revenue for the
-                growth and diversification of profits for years to come.
+              The program generates scalable and sustainable revenue for the growth and diversification of profits for years to come.
               </p>
             </div>
 
@@ -108,10 +154,7 @@
 
             <div style="margin-bottom: 30px" class="offset-xl-1 col-xl-11">
               <p>
-                Beyond Borders Accelerator Program is a Process-Oriented,
-                Structured, Commercial Excellence and Technical Expertise Service
-                (GEOS) designed to fast-track scalable and sustainable revenue
-                for growth in international markets within 6 months or less.
+              Beyond Borders Accelerator Program is a Process-Oriented, Structured, Commercial Excellence and Technical Expertise Service (GEOS) designed to fast-track scalable and sustainable revenue for growth in international markets within 6 months or less.
               </p>
             </div>
 
@@ -124,15 +167,10 @@
 
             <div style="margin-bottom: 30px" class="offset-xl-1 col-xl-11">
               <p>
-                Beyond Borders Accelerator (BBA) is a structured collaboration
-                and learning Program between the company and the BBA team to
-                fast-track business internationalization.
+              Beyond Borders Accelerator (BBA) is a structured collaboration and learning Program between the company and the BBA team to fast-track business internationalization.
               </p>
               <p>
-                At the end of this 6-month program, the company executives will
-                be well-qualified with established in-country business
-                partnerships and channel sales ecosystem and structured business processes to scale and sustain
-                the in-country business for growth.
+              At the end of this 6-month program, the company executives will be well-qualified with established in-country business partnerships and channel sales ecosystem and structured business processes to scale and sustain the in-country business for growth.
               </p>
             </div>
 
@@ -144,8 +182,7 @@
 
             <div style="margin-bottom: 30px" class="offset-xl-1 col-xl-11">
               <p>
-                Beyond Borders Accelerator Program focuses in 3
-                areas to fast-track business internationalization in six months or less.
+              Beyond Borders Accelerator Program focuses in 3 areas to fast-track business internationalization in six months or less.
               </p>
             </div>
 
@@ -184,33 +221,23 @@
 
             <div class="offset-xl-1 col-xl-11">
               <p>
-                The BBA program-qualified companies collaborate and work closely
-                with the BBA team in a 3 Step Process over six months program
-                and includes,
+              The BBA program-qualified companies collaborate and work closely with the BBA team in a 3 Step Process over six months program and includes,
               </p>
               <ul>
                 <li>
-                  Weekly company executives and BBA team online meetings for
-                  6-month phased deliverables
+                Weekly company executives and BBA team online meetings for 6-month phased deliverables
                 </li>
                 <li>
-                  Minimum 3 in-person meetings during BBA team scheduled visits
-                  to Finland over six months
+                Minimum 3 in-person meetings during BBA team scheduled visits to Finland over six months
                 </li>
                 <li>
-                  Company executives planned in-country travel over six months
-                  with the BBA team for meetings and relationship building with
-                  customers and channel partners, partnership agreements,
-                  product/pilot launch, local media marketing activities and
-                  business operations management.
+                Company executives planned in-country travel over six months with the BBA team for meetings and relationship building with customers and channel partners, partnership agreements, product/pilot launch, local media marketing activities and business operations management
                 </li>
               </ul>
               <p style="margin-top: 1rem">
-                Every company and its product portfolio are unique.
+              Every company and its product portfolio are unique.
                 <strong style="color: var(--VJ-black)">
-                  BBA team develops a tailored plan for the GEOS deliverables.
-                  The table below illustrates a typical workflow over 6
-                  months.</strong
+                BBA team develops a tailored plan for the GEOS deliverables. The table below illustrates a typical workflow over 6 months..</strong
                 >
               </p>
             </div>
@@ -363,10 +390,7 @@
                     the company, but the program is not for free.
                   </p>
                   <p>
-                    However, companies can apply for funding grants to cover
-                    most of the participation costs for the 6-month GEOS
-                    services. The funding grant is not guaranteed and is subject
-                    to eligibility criteria and terms & conditions.
+                  However, companies can apply for funding grants to cover most of the participation costs for the 6-month GEOS services. The funding grant is not guaranteed and is subject to eligibility criteria and terms & conditions.
                   </p>
                 </div>
               </div>
@@ -391,13 +415,11 @@
                   class="service-details__content"
                 >
                   <p>
-                    To qualify for the Beyond Borders Accelerator (BBA) program
-                    funding,
+                  To qualify for the Beyond Borders Accelerator (BBA) program funding,
                   </p>
                   <ul>
                     <li>
-                      Companies can apply for the BBA program anytime during the
-                      year
+                    Companies can apply for the BBA program anytime during the year
                     </li>
                     <li>
                       <!-- Please write to

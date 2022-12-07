@@ -880,23 +880,32 @@
     }
   }
 
-  // $('#tab-me').click(function () {
-  //   $('.welcome-two__img')
-  //     .children('img')
-  //     .attr('src', 'assets/images/resources/markets-middle-east-min.webp');
-  // });
+  $('#tab-me').click(function () {
+    $('.welcome-two__img')
+      .children('img')
+      .attr(
+        'src',
+        '/wp-content/themes/vendorjunctiongroup/assets/images/resources/markets-middle-east-min.webp'
+      );
+  });
 
-  // $('#tab-sa').click(function () {
-  //   $('.welcome-two__img')
-  //     .children('img')
-  //     .attr('src', 'assets/images/resources/markets-asia-min.webp');
-  // });
+  $('#tab-sa').click(function () {
+    $('.welcome-two__img')
+      .children('img')
+      .attr(
+        'src',
+        '/wp-content/themes/vendorjunctiongroup/assets/images/resources/markets-asia-min.webp'
+      );
+  });
 
-  // $('#tab-a').click(function () {
-  //   $('.welcome-two__img')
-  //     .children('img')
-  //     .attr('src', 'assets/images/resources/markets-africa-min.webp');
-  // });
+  $('#tab-a').click(function () {
+    $('.welcome-two__img')
+      .children('img')
+      .attr(
+        'src',
+        '/wp-content/themes/vendorjunctiongroup/assets/images/resources/markets-africa-min.webp'
+      );
+  });
 
   // window scroll event
 
