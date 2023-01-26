@@ -25,7 +25,7 @@
       </section>
       <!--Page Header End-->
 
-      <section class="work-together">
+      <section style="padding-top: 60px;" class="work-together">
         <div class="container">
           <div class="row">
             <div class="col-xl-12">
