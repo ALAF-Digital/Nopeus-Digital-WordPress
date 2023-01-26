@@ -1,1377 +1,1060 @@
 <?php get_header(); ?>
 
-    <section class="main-slider">
-        <div
-            class="swiper-container thm-swiper__slider"
-            data-swiper-options='{"slidesPerView": 1, "loop": true,
-                    "effect": "fade",
-                    "pagination": {
-                        "el": "#main-slider-pagination",
-                        "type": "bullets",
-                        "clickable": true
-                    },
-                    "navigation": {
-                        "nextEl": "#main-slider__swiper-button-next",
-                        "prevEl": "#main-slider__swiper-button-prev"
-                    },
-                    "autoplay": {
-                        "delay": 5000
-                    }}'
-            >
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div
-                class="image-layer"
-                style="
-                  background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/main-slider-1-0-min.webp);
-                "
-              ></div>
-              <!-- /.image-layer -->
-              <div class="main-slider-shape-1"></div>
-              <div class="main-slider-shape-2"></div>
-              <div class="main-slider-shape-3"></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-xl-7">
-                    <div class="main-slider__content">
-                      <h5>
-                        Unlocking Growth Across The Middle East, Africa, and
-                        South Asia
-                      </h5>
-                      <h2>Beyond Borders<br />Accelerator Program</h2>
-                      <a href="what-we-do/bb-accelerator-program/" class="thm-btn"
-                        >Discover More
+<div id="smooth-wrapper">
+      <div id="smooth-content">
+        <main>
+          <!-- Hero area start -->
+          <section class="hero__area-3">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="hero__inner-3">
+                    <div class="sec-title-wrapper">
+                      <h2 class="sec-sub-title">Digital</h2>
+                      <h3 class="sec-title title-left">Mark</h3>
+                      <h3 class="sec-title title-right">eting</h3>
+                    </div>
+                    <div class="hero__text-3">
+                      <p class="hero__text-animation">
+                        Static and dynamic secure code review can prevent a day
+                        before your product is even released. We can integrate
+                        with your dev environment
+                      </p>
+                    </div>
+                    <div class="scroll-down">
+                      <button>
+                        <img
+                          src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icon/arrow-down-sm.png"
+                          alt="arrow icon"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="video-info">
+                <div class="video-intro">
+                  <input id="video_check" type="checkbox" />
+                  <div class="intro-title">
+                    <h4 class="video-title">Watch <span>video intro</span></h4>
+                    <h4 class="video-title close-video-title">
+                      Close <span>video intro</span>
+                    </h4>
+                  </div>
+                  <div class="video">
+                    <video
+                      src="<?php echo get_template_directory_uri(); ?>/assets/video/hero-3.mp4" 
+                      loop
+                      muted
+                      autoplay
+                      playsinline
+                    ></video>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero3-img-ani">
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/hero/3/1.jpg"
+                alt="Hero Image"
+                class="hero3-img"
+              />
+            </div>
+          </section>
+
+          <!-- Brand area start -->
+          <section class="brand__area">
+            <div class="container pt-140 pb-140">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <h2 class="brand__title-3 title-anim">
+                    We worked with global largest brands
+                  </h2>
+                  <div class="brand__list-3">
+                    <div class="brand__item-2 fade_bottom">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/brand/1.png" alt="Brand Logo" />
+                    </div>
+                    <div class="brand__item-2 fade_bottom">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/brand/2.png" alt="Brand Logo" />
+                    </div>
+                    <div class="brand__item-2 fade_bottom">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/brand/3.png" alt="Brand Logo" />
+                    </div>
+                    <div class="brand__item-2 fade_bottom">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/brand/4.png" alt="Brand Logo" />
+                    </div>
+                    <div class="brand__item-2 fade_bottom">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/brand/5.png" alt="Brand Logo" />
+                    </div>
+                    <div class="brand__item-2 fade_bottom">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/brand/6.png" alt="Brand Logo" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Brand area end -->
+
+          <!-- About area start -->
+          <section class="about__area-3">
+            <div class="container pt-140 pb-110">
+              <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                  <div class="about__img-3">
+                    <img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/imgs/about/3/1.jpg"
+                      alt="About Thumbnail"
+                      data-speed="auto"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                  <div class="sec-title-wrapper">
+                    <h2 class="sec-sub-title title-anim">Who We Are</h2>
+                    <h3 class="sec-title title-anim">
+                      We are leading digital marketing agency.
+                    </h3>
+                  </div>
+                  <div class="sec-text-wrapper">
+                    <div class="sec-text text-anim">
+                      <p>
+                        We’re a team of strategic mdigital marketing working
+                        globally with largest brands, We believe that progress
+                        only happens when you refused to play things safe. We
+                        combine ideas and behaviors, and insights with design,
+                        technological data to produce brand experiences that
+                        customers love our services.
+                      </p>
+                      <div class="btn_wrapper">
+                        <a
+                          class="wc-btn-light btn-hover btn-item"
+                          href="about.html"
+                          ><span></span> Explore Us
+                          <i class="fa-solid fa-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- About area end -->
+
+          <!-- Service area start -->
+          <section class="service__area-3 pb-150">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="sec-title-wrapper pt-130 text-anim">
+                    <h2 class="sec-sub-title title-anim">Services</h2>
+                    <h3 class="sec-title title-anim">
+                      Our marketing <br />
+                      Services
+                    </h3>
+                    <p>
+                      Consumers today rely heavily on digital means to research
+                      products. We research a brand of bldend engaging with it,
+                      according to the meanwhile, 51% of consumers say they use
+                      Google to research products before buying.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xx-12">
+                  <div class="service__list-3">
+                    <div class="service__item-3 service_animation">
+                      <h3>
+                        <a href="service-details.html" class="service__title-3"
+                          >Search Engine <br />Optimization</a
+                        >
+                      </h3>
+                      <div class="service__content-3">
+                        <p>
+                          We help brands stand out through aweful, elegant
+                          visual design. Our design mainly philosophy.
+                        </p>
+                        <ul class="">
+                          <li>+ Logo Design</li>
+                          <li>+ Advertisement</li>
+                          <li>+ Promotion</li>
+                        </ul>
+                      </div>
+                      <div class="service__btn-3">
+                        <div class="btn_wrapper">
+                          <a
+                            href="service-details.html"
+                            class="wc-btn-black btn-hover btn-item"
+                            ><span></span> Details
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="service__hover-3"
+                        style="
+                          background-image: url(<?php echo get_template_directory_uri(); ?>/assets/imgs/service/3/1.jpg);
+                        "
+                      ></div>
+                    </div>
+
+                    <div class="service__item-3 service_animation">
+                      <h3>
+                        <a href="service-details.html" class="service__title-3"
+                          >Email <br />Marketing</a
+                        >
+                      </h3>
+                      <div class="service__content-3">
+                        <p>
+                          We help brands stand out through aweful, elegant
+                          visual design. Our design mainly philosophy.
+                        </p>
+                        <ul class="">
+                          <li>+ Logo Design</li>
+                          <li>+ Advertisement</li>
+                          <li>+ Promotion</li>
+                        </ul>
+                      </div>
+                      <div class="service__btn-3">
+                        <div class="btn_wrapper">
+                          <a
+                            href="service-details.html"
+                            class="wc-btn-black btn-hover btn-item"
+                            ><span></span> Details
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="service__hover-3"
+                        style="
+                          background-image: url(<?php echo get_template_directory_uri(); ?>/assets/imgs/service/3/2.png);
+                        "
+                      ></div>
+                    </div>
+
+                    <div class="service__item-3 service_animation">
+                      <h3 class="">
+                        <a href="service-details.html" class="service__title-3"
+                          >COntent <br />Marketing</a
+                        >
+                      </h3>
+                      <div class="service__content-3">
+                        <p>
+                          We help brands stand out through aweful, elegant
+                          visual design. Our design mainly philosophy.
+                        </p>
+                        <ul class="">
+                          <li>+ Logo Design</li>
+                          <li>+ Advertisement</li>
+                          <li>+ Promotion</li>
+                        </ul>
+                      </div>
+                      <div class="service__btn-3">
+                        <div class="btn_wrapper">
+                          <a
+                            href="service-details.html"
+                            class="wc-btn-black btn-hover btn-item"
+                            ><span></span> Details
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="service__hover-3"
+                        style="
+                          background-image: url(<?php echo get_template_directory_uri(); ?>/assets/imgs/service/3/3.png);
+                        "
+                      ></div>
+                    </div>
+
+                    <div class="service__item-3 service_animation">
+                      <h3 class="">
+                        <a href="service-details.html" class="service__title-3"
+                          >Social <br />Marketing</a
+                        >
+                      </h3>
+                      <div class="service__content-3">
+                        <p>
+                          We help brands stand out through aweful, elegant
+                          visual design. Our design mainly philosophy.
+                        </p>
+                        <ul class="">
+                          <li>+ Logo Design</li>
+                          <li>+ Advertisement</li>
+                          <li>+ Promotion</li>
+                        </ul>
+                      </div>
+                      <div class="service__btn-3">
+                        <div class="btn_wrapper">
+                          <a
+                            href="service-details.html"
+                            class="wc-btn-black btn-hover btn-item"
+                            ><span></span> Details
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="service__hover-3"
+                        style="
+                          background-image: url(<?php echo get_template_directory_uri(); ?>/assets/imgs/service/3/4.png);
+                        "
+                      ></div>
+                    </div>
+
+                    <div class="service3__img-wrap">
+                      <div class="service3__img"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Service area end -->
+
+          <!-- Portfolio area start -->
+          <section class="portfolio__area-3">
+            <div class="container pt-100 pb-150">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="sec-title-wrapper">
+                    <h2 class="sec-sub-title title-anim">
+                      Featured <br />Work
+                    </h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="swiper portfolio__slider-3">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="portfolio__slide-3">
+                          <a href="service-details.html">
+                            <h3 class="portfolio__title-3">
+                              Benjon <span>Website</span> 2012
+                            </h3>
+                            <img
+                              src="<?php echo get_template_directory_uri(); ?>/assets/imgs/portfolio/3/2.jpg"
+                              alt="Portfolio Image"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="portfolio__slide-3">
+                          <a href="service-details.html">
+                            <h3 class="portfolio__title-3">
+                              Benjon <span>Website</span> 2012
+                            </h3>
+                            <img
+                              src="<?php echo get_template_directory_uri(); ?>/assets/imgs/portfolio/3/1.jpg"
+                              alt="Portfolio Image"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="portfolio__slide-3">
+                          <a href="service-details.html">
+                            <h3 class="portfolio__title-3">
+                              Benjon <span>Website</span> 2012
+                            </h3>
+                            <img
+                              src="<?php echo get_template_directory_uri(); ?>/assets/imgs/portfolio/3/3.jpg"
+                              alt="Portfolio Image"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="portfolio__slide-3">
+                          <a href="service-details.html">
+                            <h3 class="portfolio__title-3">
+                              Benjon <span>Website</span> 2012
+                            </h3>
+                            <img
+                              src="<?php echo get_template_directory_uri(); ?>/assets/imgs/portfolio/3/4.jpg"
+                              alt="Portfolio Image"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-btn">
+                      <div class="pp-prev">
+                        <i class="fa-solid fa-arrow-left"></i>
+                      </div>
+                      <div class="pp-next">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Portfolio area end -->
+
+          <!-- Testimonial area start -->
+          <section class="testimonial__area-3">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="swiper testimonial__slider-3">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide testimonial__slide-3">
+                        <p>
+                          When we talk about Alts, we do not mean a typical
+                          business partner, but rather a team that collaborates
+                          with us daily, always there for us when we encounter
+                          difficulties and celebrate achievements. We see in
+                          Alts our best ally for success!
+                        </p>
+                        <h2 class="client__name-3">Maria D. Halk</h2>
+                        <h3 class="client__role-3">Managing Director</h3>
+                      </div>
+                      <div class="swiper-slide testimonial__slide-3">
+                        <p>
+                          When we talk about Alts, we do not mean a typical
+                          business partner, but rather a team that collaborates
+                          with us daily, always there for us when we encounter
+                          difficulties and celebrate achievements. We see in
+                          Alts our best ally for success!
+                        </p>
+                        <h2 class="client__name-3">Maria D. Halk</h2>
+                        <h3 class="client__role-3">Managing Director</h3>
+                      </div>
+                      <div class="swiper-slide testimonial__slide-3">
+                        <p>
+                          When we talk about Alts, we do not mean a typical
+                          business partner, but rather a team that collaborates
+                          with us daily, always there for us when we encounter
+                          difficulties and celebrate achievements. We see in
+                          Alts our best ally for success!
+                        </p>
+                        <h2 class="client__name-3">Maria D. Halk</h2>
+                        <h3 class="client__role-3">Managing Director</h3>
+                      </div>
+                      <div class="swiper-slide testimonial__slide-3">
+                        <p>
+                          When we talk about Alts, we do not mean a typical
+                          business partner, but rather a team that collaborates
+                          with us daily, always there for us when we encounter
+                          difficulties and celebrate achievements. We see in
+                          Alts our best ally for success!
+                        </p>
+                        <h2 class="client__name-3">Maria D. Halk</h2>
+                        <h3 class="client__role-3">Managing Director</h3>
+                      </div>
+                      <div class="swiper-slide testimonial__slide-3">
+                        <p>
+                          When we talk about Alts, we do not mean a typical
+                          business partner, but rather a team that collaborates
+                          with us daily, always there for us when we encounter
+                          difficulties and celebrate achievements. We see in
+                          Alts our best ally for success!
+                        </p>
+                        <h2 class="client__name-3">Maria D. Halk</h2>
+                        <h3 class="client__role-3">Managing Director</h3>
+                      </div>
+                    </div>
+                    <div class="next-button swipper-btn">
+                      <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="prev-button swipper-btn">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial__images-3 animation_image_zoom">
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/testimonial/3/1.jpg"
+                alt="testimonial Image"
+                class="testimonial3__img"
+              />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/testimonial/3/2.jpg"
+                alt="testimonial Image"
+                class="testimonial3__img-2"
+              />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/testimonial/3/3.jpg"
+                alt="testimonial Image"
+                class="testimonial3__img-3"
+              />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/testimonial/3/4.jpg"
+                alt="testimonial Image"
+                class="testimonial3__img-4"
+              />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/testimonial/3/5.jpg"
+                alt="testimonial Image"
+                class="testimonial3__img-5"
+              />
+              <img
+                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/testimonial/3/6.jpg"
+                alt="testimonial Image"
+                class="testimonial3__img-6"
+              />
+            </div>
+          </section>
+          <!-- Testimonial area end -->
+
+          <!-- Workflow area start -->
+          <section class="workflow__area-3">
+            <div class="workflow__wrapper-3">
+              <div class="choose-wrapper wf_panel">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xxl-12">
+                      <div class="choose-title-wrapper">
+                        <h2 class="choose-title title-anim">
+                          why <br />
+                          choose us
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="research__area wf_panel pt-150">
+                <div class="container inner_content">
+                  <div class="row">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                      <div class="sec-title-wrapper">
+                        <h2 class="sec-sub-title">why <br />choose us</h2>
+                        <h3 class="sec-title">
+                          Keword,Research Strategy, Survey, & Analytics
+                        </h3>
+                        <p>
+                          Attention, we take out our round glasses and our
+                          sweater with elbow patches to go back to the origins
+                          of the user experience: the first mention of the user
+                          and its importance was born in the
+                        </p>
+                      </div>
+                      <ul class="research__tools">
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">pinterest</a></li>
+                        <li><a href="#">Instagram</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                      <div class="research__list">
+                        <div class="research__item">
+                          <div class="research__number">
+                            <span>60%</span>
+                          </div>
+                          <div class="research__info">
+                            <h4 class="research__title">Strategy</h4>
+                            <p>
+                              Your marketing strategy optimizing performances
+                              doesn’t have to be a guessing game.
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="research__item">
+                          <div class="research__number">
+                            <span>95%</span>
+                          </div>
+                          <div class="research__info">
+                            <h4 class="research__title">Audience</h4>
+                            <p>
+                              Your marketing strategy optimizing performances
+                              doesn’t have to be a guessing game.
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="research__item">
+                          <div class="research__number">
+                            <span>70%</span>
+                          </div>
+                          <div class="research__info">
+                            <h4 class="research__title">Keyword</h4>
+                            <p>
+                              Your marketing strategy optimizing performances
+                              doesn’t have to be a guessing game.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="counter__area-3 wf_panel">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xxl-12">
+                      <div class="sec-title-wrapper">
+                        <h2 class="sec-sub-title">Why <br />Choose Us</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                      <div class="counter__wrapper-3">
+                        <div class="counter__item-3">
+                          <h2 class="counter__number">25k</h2>
+                          <p>Project <br />completed</p>
+                        </div>
+                        <div class="counter__item-3">
+                          <h2 class="counter__number">8k</h2>
+                          <p>Happy <br />customers</p>
+                        </div>
+                        <div class="counter__item-3">
+                          <h2 class="counter__number">15</h2>
+                          <p>Years <br />experiences</p>
+                        </div>
+                        <div class="counter__item-3">
+                          <h2 class="counter__number">98</h2>
+                          <p>Awards <br />achievement</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                      <div class="counter__img-3">
+                        <img
+                          src="<?php echo get_template_directory_uri(); ?>/assets/imgs/thumb/counter-3.png"
+                          alt="Counter Image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA area start -->
+              <div class="cta__area-3 wf_panel">
+                <div class="container pt-150 pb-150">
+                  <div class="row">
+                    <div class="col-xxl-12">
+                      <div class="cta__content-3">
+                        <p class="cta__sub-title-2">
+                          Have you project in mind?
+                        </p>
+                        <h2 class="cta__title-2">
+                          Let’s make something great together!
+                        </h2>
+                        <div class="btn_wrapper">
+                          <a
+                            href="contact.html"
+                            class="wc-btn-black btn-hover btn-item"
+                            ><span></span>Contact <br />with us
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CTA area end -->
+            </div>
+          </section>
+          <!-- Workflow area end -->
+
+          <!-- Price area start -->
+          <section class="price__area pt-130 pb-140">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                  <div class="sec-title-wrapper">
+                    <h2 class="sec-sub-title title-anim">Pricing Table</h2>
+                    <h3 class="sec-title title-anim">
+                      Be kind to your <br />mind
+                    </h3>
+                  </div>
+                  <div class="faq__list-3">
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                          >
+                            Design should enrich our day
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseOne"
+                          class="accordion-collapse collapse show"
+                          aria-labelledby="headingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Our design services starts and ends with a
+                              best-in-class experience strategy that builds
+                              brands. Through a process of iteration and
+                              prototyping design interfaces that bring joy to
+                              people
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                          >
+                            Bring their individual experience and creative
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseTwo"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              This is the second item's accordion body. It is
+                              hidden by default, until the collapse plugin adds
+                              the appropriate classes that we use to style each
+                              element. These classes.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                          >
+                            Human centred design to challenges
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseThree"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingThree"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Our design services starts and ends with a
+                              best-in-class experience strategy that builds
+                              brands. Through a process of iteration and
+                              prototyping design interfaces that bring joy to
+                              people
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour"
+                            aria-expanded="false"
+                            aria-controls="collapseFour"
+                          >
+                            Design should enrich our day
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingFour"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Our design services starts and ends with a
+                              best-in-class experience strategy that builds
+                              brands. Through a process of iteration and
+                              prototyping design interfaces that bring joy to
+                              people
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive"
+                            aria-expanded="false"
+                            aria-controls="collapseFive"
+                          >
+                            Developing core web applications
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingFive"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Our design services starts and ends with a
+                              best-in-class experience strategy that builds
+                              brands. Through a process of iteration and
+                              prototyping design interfaces that bring joy to
+                              people
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                  <div class="price__table">
+                    <div class="price__item animation_from_bottom">
+                      <div class="price__icon">
+                        <span><i class="fa-solid fa-check"></i></span>
+                      </div>
+                      <div class="price__info">
+                        <h2 class="price__type">Yearly</h2>
+                        <h3 class="price__title">14 days free</h3>
+                        <p>
+                          Subscription fee is $129.99 USD and automatically
+                          renews each year.
+                        </p>
+                      </div>
+                      <div class="price__amount">
+                        <h4 class="best-value">Best Value</h4>
+                        <p>$129<span> .99</span></p>
+                      </div>
+                    </div>
+
+                    <div class="price__item animation_from_top">
+                      <div class="price__icon">
+                        <span><i class="fa-solid fa-check"></i></span>
+                      </div>
+                      <div class="price__info">
+                        <h2 class="price__type">Monthly</h2>
+                        <h3 class="price__title">7 days free</h3>
+                        <p>
+                          Subscription fee is $12.99 USD and automatically
+                          renews each year.
+                        </p>
+                      </div>
+                      <div class="price__amount">
+                        <p>$12<span> .99</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price__btn btn_wrapper">
+                    <a
+                      href="contact.html"
+                      class="wc-btn-black btn-hover btn-item"
+                      ><span></span> Try it <br />Free Now
+                      <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Price area end -->
+
+          <!-- Blog area start -->
+          <section class="blog__area-3 pb-140 blog__animation">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="sec-title-wrapper text-anim pt-130">
+                    <h2 class="sec-sub-title">Recent Blog</h2>
+                    <h3 class="sec-title title-anim">
+                      Read Updated <br />Journal
+                    </h3>
+                    <p>
+                      Read our blog and try to see everything from every
+                      perspective. Our passion lies in making everything
+                      accessible and aesthetic for everyone.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                  <article class="blog__item-3">
+                    <div class="blog__img-wrapper-3">
+                      <a href="blog-details.html">
+                        <div class="img-box">
+                          <img
+                            class="image-box__item"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/imgs/blog/3/1.jpg"
+                            alt="Blog Thumbnail"
+                          />
+                          <img
+                            class="image-box__item"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/imgs/blog/3/1.jpg"
+                            alt="BLog Thumbnail"
+                          />
+                        </div>
                       </a>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="image-layer"
-                style="
-                  background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/main-slider-1-1-min.webp);
-                "
-              ></div>
-              <!-- /.image-layer -->
-              <div class="main-slider-shape-1"></div>
-              <div class="main-slider-shape-2"></div>
-              <div class="main-slider-shape-3"></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-xl-7">
-                    <div class="main-slider__content">
-                      <h2>International<br />Business<br />Development</h2>
-                      <a href="<?php echo get_site_url(); ?>/what-we-do/#IBD" class="thm-btn"
-                        >Discover More</a
-                      >
+                    <div class="blog__info-3">
+                      <h4 class="blog__meta">
+                        <a href="category.html">UI Design</a> . 02 May 2019
+                      </h4>
+                      <h5>
+                        <a href="blog-details.html" class="blog__title-3"
+                          >How to bring fold to your startup company with
+                          Axtra</a
+                        >
+                      </h5>
+                      <a href="blog-details.html" class="blog__btn"
+                        >Read More
+                        <span><i class="fa-solid fa-arrow-right"></i></span
+                      ></a>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="image-layer"
-                style="
-                  background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/main-slider-1-2-min.webp);
-                "
-              ></div>
-              <!-- /.image-layer -->
-              <div class="main-slider-shape-1"></div>
-              <div class="main-slider-shape-2"></div>
-              <div class="main-slider-shape-3"></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-xl-7">
-                    <div class="main-slider__content">
-                      <h2>Channel<br />Sales<br />Ecosystem</h2>
-                      <a href="<?php echo get_site_url(); ?>/what-we-do/#CSE" class="thm-btn"
-                        >Discover More</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="image-layer"
-                style="
-                  background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/main-slider-ssp.webp);
-                "
-              ></div>
-              <!-- /.image-layer -->
-              <div class="main-slider-shape-1"></div>
-              <div class="main-slider-shape-2"></div>
-              <div class="main-slider-shape-3"></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-xl-7">
-                    <div class="main-slider__content">
-                      <h2>Structured<br />Sales<br />Process</h2>
-                      <a href="<?php echo get_site_url(); ?>/what-we-do/#SSP" class="thm-btn"
-                        >Discover More</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="image-layer"
-                style="
-                  background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/main-slider-ICOM-min.webp);
-                "
-              ></div>
-              <!-- /.image-layer -->
-              <div class="main-slider-shape-1"></div>
-              <div class="main-slider-shape-2"></div>
-              <div class="main-slider-shape-3"></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-xl-7">
-                    <div class="main-slider__content">
-                      <h2>In-Country<br />Operations<br />Management</h2>
-                      <a href="<?php echo get_site_url(); ?>/what-we-do/#IOM" class="thm-btn"
-                        >Discover More</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- If we need navigation buttons -->
-          <div class="swiper-pagination" id="main-slider-pagination"></div>
-          <div class="main-slider__nav">
-            <div
-              class="swiper-button-prev"
-              id="main-slider__swiper-button-next"
-            >
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
-            <div
-              class="swiper-button-next"
-              id="main-slider__swiper-button-prev"
-            >
-              <i class="fa-solid fa-arrow-left"></i>
-            </div>
-          </div>
-        </div>
-    </section>
-      <!--Main Slider End-->
-
-      <!--Welcome One Start-->
-      <section class="welcome-one">
-        <div
-          class="welcome-one-shape"
-          style="
-            background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shapes/welcome-one-shape.png);
-          "
-        ></div>
-        <div class="container">
-          <div class="welcome-one__top">
-            <div class="row">
-              <div class="col-xl-6 col-lg-6">
-                <div class="welcome-one__top-left">
-                  <div class="section-title text-left">
-                    <span class="section-title__tagline">Vendor Junction</span>
-                    <h1 class="section-title__title">
-                      Global Strategy. Local Expertise
-                    </h1>
-                    <p>
-                      Vendor Junction (A division of Vendor Junction Group) is a
-                      knowledge-based professional service and management firm
-                      specializing in international business development,
-                      channel sales ecosystems, and in-country business
-                      operations management for our clients in Europe & North
-                      America.<br /><br />
-                      Our industry-specific managers, business unit teams, and
-                      alliance partners identify high potential markets with
-                      data-driven go-to-market strategies. With defined business
-                      processes that align with our client's vision, Vendor
-                      Junction delivers margin-based new revenue lines across
-                      the Middle East, Africa & South Asia.<br /><br />
-                      We create defined deliverables for every step of executing
-                      the set strategy, ensuring a unified customer experience,
-                      sustained revenue growth, and measurable return on
-                      investment across high-growth and emerging international
-                      markets.<br /><br />
-                      Headquartered in the United Arab Emirates and with
-                      representative offices in the USA, Finland, Sweden,
-                      Denmark, Saudi Arabia, India, and Pakistan, Vendor
-                      Junction operates internationally with global reach for
-                      its clients.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6">
-                <div class="welcome-one__top-right">
-                  <div class="welcome-one__counter">
-                    <ul class="welcome-one__counter-list list-unstyled">
-                      <li
-                        class="welcome-one__counter-single wow fadeInUp"
-                        data-wow-delay="100ms"
-                      >
-                        <h3>6</h3>
-                        <p class="welcome-one__counter-text">
-                          Months or less to generate new revenue lines
-                        </p>
-                      </li>
-                    </ul>
-
-                    <ul class="welcome-one__counter-list list-unstyled">
-                      <li
-                        class="welcome-one__counter-single wow fadeInUp"
-                        data-wow-delay="100ms"
-                      >
-                        <h3>170</h3>
-                        <p class="welcome-one__counter-text">
-                          Million USD in qualified international sales generated
-                        </p>
-                      </li>
-                    </ul>
-
-                    <ul class="welcome-one__counter-list list-unstyled">
-                      <li
-                        class="welcome-one__counter-single wow fadeInUp"
-                        data-wow-delay="100ms"
-                      >
-                        <h3>40+</h3>
-                        <p class="welcome-one__counter-text">
-                          Companies successful market entry across 13 countries
-                        </p>
-                      </li>
-                    </ul>
-                    <ul class="welcome-one__counter-list list-unstyled">
-                      <li
-                        class="welcome-one__counter-single wow fadeInUp"
-                        data-wow-delay="100ms"
-                      >
-                        <h3>780+</h3>
-                        <p class="welcome-one__counter-text">
-                          Industry-specific sales channel network in 18
-                          countries
-                        </p>
-                      </li>
-                    </ul>
-                    <ul class="welcome-one__counter-list list-unstyled">
-                      <li
-                        class="welcome-one__counter-single wow fadeInUp"
-                        data-wow-delay="100ms"
-                      >
-                        <h3>14</h3>
-                        <p class="welcome-one__counter-text">
-                          Business verticals specialization
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="welcome-one__bottom">
-            <ul class="list-unstyled welcome-one__feature">
-              <li
-                class="welcome-one__feature-single wow fadeInUp"
-                data-wow-delay="100ms"
-              >
-                <div class="welcome-one__feature-content">
-                  <h3 class="welcome-one__feature-title">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IBD"
-                      >International Business Development<br /><br
-                    /></a>
-                  </h3>
-                  <div class="welcome-one__feature-arrow">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IBD"
-                      ><i class="fa-solid fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="welcome-one__feature-icon">
-                  <span class="seric">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/ic2.png" />
-                  </span>
-                </div>
-                <!-- <div class="welcome-one__feature-count"></div> -->
-              </li>
-              <li
-                class="welcome-one__feature-single wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div class="welcome-one__feature-content">
-                  <h3 class="welcome-one__feature-title">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#CSE"
-                      >Sales Channel Ecosystem<br /><br /><br
-                    /></a>
-                  </h3>
-                  <div class="welcome-one__feature-arrow">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#CSE"
-                      ><i class="fa-solid fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="welcome-one__feature-icon">
-                  <span class="seric">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/ic3.png" />
-                  </span>
-                </div>
-                <!-- <div class="welcome-one__feature-count"></div> -->
-              </li>
-
-              <li
-                class="welcome-one__feature-single wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div class="welcome-one__feature-content">
-                  <h3 class="welcome-one__feature-title">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#SSP"
-                      >Structured Sales Process<br /><br /><br
-                    /></a>
-                  </h3>
-                  <div class="welcome-one__feature-arrow">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#SSP"
-                      ><i class="fa-solid fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="welcome-one__feature-icon">
-                  <span class="seric">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/ic1.png" />
-                  </span>
-                </div>
-                <!-- <div class="welcome-one__feature-count"></div> -->
-              </li>
-              <li
-                class="welcome-one__feature-single wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div class="welcome-one__feature-content">
-                  <h3 class="welcome-one__feature-title">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IOM"
-                      >In-Country Operations Management<br /><br
-                    /></a>
-                  </h3>
-                  <div class="welcome-one__feature-arrow">
-                    <a href="<?php echo get_site_url(); ?>/what-we-do/#IOM"
-                      ><i class="fa-solid fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="welcome-one__feature-icon">
-                  <span class="seric">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/ic4.png" />
-                  </span>
-                </div>
-                <!-- <div class="welcome-one__feature-count"></div> -->
-              </li>
-            </ul>
-          </div>
-          <div class="welcome-one__find-solutions">
-            <p class="welcome-one__find-solutions-text">
-              Learn more about our team and specialities
-              <a href="<?php echo get_site_url(); ?>/about-us">View About Us</a>
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--Welcome One End-->
-
-      <!--Case One Start-->
-      <section class="case-one">
-        <div class="container">
-          <div class="section-title text-center">
-            <span class="section-title__tagline">Vendor Junction</span>
-            <h2 class="section-title__title">Our Focus Industries</h2>
-          </div>
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
-              <div class="case-one__single">
-                <div class="case-one__img">
-                  <img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/information_technology-min.webp"
-                    alt=""
-                  />
-                </div>
-                <div class="case-one__content">
-                  <h3 class="case-one__title">
-                    <a href="#">Information<br />Technology</a>
-                  </h3>
-                  <p class="case-one__tagline">
-                    <i class="fa fa-arrow-right"></i> Cyber Security<br />
-                    <i class="fa fa-arrow-right"></i> Networking &
-                    Communication<br />
-                    <i class="fa fa-arrow-right"></i> I<span>o</span>T
-                    Solutions<br />
-                    <i class="fa fa-arrow-right"></i> Software & Cloud Solutions
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="200ms">
-              <div class="case-one__single">
-                <div class="case-one__img">
-                  <img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/healthcare--min.webp"
-                    alt=""
-                  />
-                </div>
-                <div class="case-one__content">
-                  <h3 class="case-one__title">
-                    <a href="#">Life Science & Healthcare</a>
-                  </h3>
-                  <p class="case-one__tagline">
-                    <i class="fa fa-arrow-right"></i> Health Tech <br />
-                    <i class="fa fa-arrow-right"></i> Diagnostics Devices<br />
-                    <i class="fa fa-arrow-right"></i> Home Care & Monitoring<br /><i
-                      class="fa fa-arrow-right"
-                    ></i>
-                    Clinical Laboratory Equipment
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
-              <div class="case-one__single">
-                <div class="case-one__img">
-                  <img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/green-energy.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="case-one__content">
-                  <h3 class="case-one__title">
-                    <a href="#"
-                      >Clean Tech & Circular Economy
-                    </a>
-                  </h3>
-                  <p class="case-one__tagline">
-                    <i class="fa fa-arrow-right"></i> Water Treatment &
-                    Management <br />
-                    <i class="fa fa-arrow-right"></i> Green Energy <br />
-                    <i class="fa fa-arrow-right"></i> Waste Treatment &
-                    Recycling <br /><i class="fa fa-arrow-right"></i> Circular
-                    Economy Solutions
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="300ms">
-              <div class="case-one__single">
-                <div class="case-one__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/resources/AND.jpg" alt="" />
-                </div>
-                <div class="case-one__content">
-                  <h3 class="case-one__title">
-                    <a href="#">And<br /><br /></a>
-                  </h3>
-                  <p class="case-one__tagline">
-                    <i class="fa fa-arrow-right"></i> Edutech<br />
-                    <i class="fa fa-arrow-right"></i>
-                    E-learning<br /><br /><br />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Case One End-->
-      <section class="welcome-two" id="ourfocus" style="background: none">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-5">
-              <div
-                class="welcome-two__left wow slideInLeft animated animated"
-                data-wow-delay="100ms"
-                data-wow-duration="2500ms"
-                style="
-                  visibility: visible;
-                  animation-duration: 2500ms;
-                  animation-delay: 100ms;
-                  animation-name: slideInLeft;
-                "
-              >
-                <div class="welcome-two__img">
-                  <img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/resources/markets-middle-east-min.webp"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-7">
-              <div class="welcome-two__right">
-                <div class="section-title text-left">
-                  <span class="section-title__tagline">Vendor Junction</span>
-                  <h2 class="section-title__title">
-                    Markets for Accelerated Growth
-                  </h2>
+                  </article>
                 </div>
 
-                <p class="welcome-two__text-2">
-                  Leveraging our in-depth experience from each market paired
-                  with our vast professional network of industry-specific
-                  experts and public sector operators, we utilize our channel
-                  partner ecosystem to fast-track sales and create collaboration
-                  opportunities.
-                </p>
-
-                <div class="quality-work__tab-box tabs-box">
-                  <ul class="tab-buttons clearfix list-unstyled">
-                    <li id="tab-me" data-tab="#one" class="tab-btn active-btn">
-                      <span>Middle East</span>
-                    </li>
-
-                    <li id="tab-a" data-tab="#three" class="tab-btn">
-                      <span>Africa</span>
-                    </li>
-                    <li id="tab-sa" data-tab="#two" class="tab-btn">
-                      <span>South Asia</span>
-                    </li>
-                  </ul>
-                  <div class="tabs-content">
-                    <!--tab-->
-                    <div class="tab active-tab" id="one" style="display: block">
-                      <div class="tab-content__inner">
-                        <div class="welcome-two__content">
-                          <ul class="list-unstyled welcome-two__points">
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>United Arab Emirates</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Saudi Arabia</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Qatar</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Kuwait</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Oman</p>
-                              </div>
-                            </li>
-
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Bahrain</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Jordan</p>
-                              </div>
-                            </li>
-                          </ul>
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                  <article class="blog__item-3">
+                    <div class="blog__img-wrapper-3">
+                      <a href="blog-details.html">
+                        <div class="img-box">
+                          <img
+                            class="image-box__item"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/imgs/blog/3/2.jpg"
+                            alt="Blog Thumbnail"
+                          />
+                          <img
+                            class="image-box__item"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/imgs/blog/3/2.jpg"
+                            alt="BLog Thumbnail"
+                          />
                         </div>
-                      </div>
+                      </a>
                     </div>
-
-                    <div class="tab" id="two" style="display: none">
-                      <div class="tab-content__inner">
-                        <div class="welcome-two__content">
-                          <ul class="list-unstyled welcome-two__points">
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>India</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Pakistan</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Bangladesh</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Sri Lanka</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Nepal</p>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
+                    <div class="blog__info-3">
+                      <h4 class="blog__meta">
+                        <a href="category.html">UI Design</a> . 02 May 2019
+                      </h4>
+                      <h5>
+                        <a href="blog-details.html" class="blog__title-3"
+                          >How to manage a talented and successful design
+                          team</a
+                        >
+                      </h5>
+                      <a href="blog-details.html" class="blog__btn"
+                        >Read More
+                        <span><i class="fa-solid fa-arrow-right"></i></span
+                      ></a>
                     </div>
-
-                    <div class="tab" id="three" style="display: none">
-                      <div class="tab-content__inner">
-                        <div class="welcome-two__content">
-                          <ul class="list-unstyled welcome-two__points">
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Nigeria</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Kenya</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Ghana</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Republic of Congo</p>
-                              </div>
-                            </li>
-
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Ethiopia</p>
-                              </div>
-                            </li>
-
-                            <li>
-                              <div class="icon">
-                                <i class="fa fa-arrow-right"></i>
-                              </div>
-                              <div class="text">
-                                <p>Egypt</p>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </article>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </section>
+          <!-- Blog area end -->
+        </main>
 
-      <!--Benefits One Start-->
-      <section style="padding-top: 0" class="benefits-one">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-lg-6">
-              <div class="benefits-one__left">
-                <div class="section-title text-left">
-                  <span class="section-title__tagline">Vendor Junction</span>
-                  <h2 class="section-title__title">
-                    Core Strengths and Expertise
-                  </h2>
-                </div>
-                <div class="benefits-one__img-box">
-                  <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="benefits-one__img-single">
-                        <img
-                          src="<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/index_strength_1.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="benefits-one__img-single">
-                        <img
-                          src="<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/index_strength_2.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <!-- Footer area start -->
+        <footer class="footer__area-3">
+          <div class="footer__top-3">
+            <div class="footer__top-wrapper-3">
+              <div class="footer__logo-3 pt-120">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo/site-logo-white-2.png"
+                  alt="Footer Logo"
+                />
                 <p>
-                  Any company can fulfil its vision for growth. It requires the
-                  right people, expert knowledge, channel expertise, solid
-                  strategy, and process-driven execution. We combine these
-                  elements for success and connect our clients with business
-                  opportunities in developing markets for sustainable revenue
-                  growth and margin-based ROI.
+                  When do they work well, and when do they on us and finally,
+                  when do we actually need how can we avoid them.
                 </p>
               </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-              <div class="benefits-one__rihgt">
-                <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
-                  <div class="accrodion">
-                    <div class="accrodion-title">
-                      <h4>Qualified Team</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          Industry specialised teams, consultants, alliance
-                          partners, and advisory board
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accrodion">
-                    <div class="accrodion-title">
-                      <h4>Process Driven Expertise</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          GEOS methodology for market research, go-to-market
-                          strategies channel ecosystem & structured sales
-                          process
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accrodion">
-                    <div class="accrodion-title">
-                      <h4>Local Market(s) Knowledge</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          Local market(s) knowledge with access to
-                          decision-makers across industries, sales channels, and
-                          government entities
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accrodion last-chiled">
-                    <div class="accrodion-title">
-                      <h4>Channel Sales Expertise</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          780+ industry-specific channel sales networks and
-                          partners in 18 countries across MEA & South Asia
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accrodion last-chiled">
-                    <div class="accrodion-title">
-                      <h4>Channel Programs</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          Program design and certified training for sales
-                          channel enablement
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accrodion last-chiled">
-                    <div class="accrodion-title">
-                      <h4>Marketing & Sales</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          Brand awareness campaigns, marketing programs, lead
-                          generation and structured sales management.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accrodion last-chiled">
-                    <div class="accrodion-title">
-                      <h4>In-Country Operations</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          In-Country representative offices with qualified
-                          resources for business operations management
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accrodion last-chiled">
-                    <div class="accrodion-title">
-                      <h4>Value-Added Services</h4>
-                    </div>
-                    <div class="accrodion-content">
-                      <div class="inner">
-                        <p>
-                          Access to investment firms in the Middle East & South
-                          Asia, feasibility studies, seminars & trade shows
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="footer__social-3">
+                <ul>
+                  <li><a href="#">facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Linkedin</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+              <div class="footer__contact-3">
+                <a class="end" href="contact.html">Let’s talk</a>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!--Benefits One End-->
 
-      <!--Our Mission Start-->
-      <section class="our-mission">
-        <div class="our-mission-bg-box">
-          <div
-            class="our-mission-bg jarallax"
-            data-jarallax
-            data-speed="0.2"
-            data-imgPosition="50% 0%"
-            style="
-              background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/backgrounds/our-mission-bg-min.webp);
-            "
-          ></div>
-        </div>
-        <div class="our-mission-shape-1 shapemover2"></div>
-        <div class="our-mission-shape-2 shapemover2"></div>
-        <div class="our-mission-shape-3 shapemover2"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="our-mission__inner">
-                <h4 style="color: var(--VJ-white); margin-bottom: 1em">
-                  Unlocking Growth Across The Middle East, Africa, and South
-                  Asia
-                </h4>
-                <h2 class="our-mission__title">
-                  Beyond Borders <br />Accelerator Program
-                </h2>
-                <a href="what-we-do/bb-accelerator-program/" class="thm-btn our-mission__btn"
-                  >Discover More</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Our Mission End-->
-
-      <!--Team One Start-->
-      <section class="team-one">
-        <div class="team-one__container">
-          <div class="section-title text-center">
-            <span class="section-title__tagline">Vendor Junction</span>
-            <h2 class="section-title__title">References</h2>
-          </div>
-        </div>
-      </section>
-      <!--Team One End-->
-
-      <!--Testimonial One Start-->
-      <section class="testimonial-one">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="testimonial-one__carousel owl-the owl-carousel">
-                <!--Testimonial One Single-->
-                <div class="testimonial-one__single">
-                  <div class="testimonial-one__client-info">
-                    <div class="testimonial-one__client-img">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/1.jpg" alt="" />
-                      <div class="testimonial-one__quote">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial-one__content">
-                    <p class="testimonial-one__text">
-                      Working with Sayed is outlined with excellent business
-                      understanding, superior local market and customer
-                      understanding and over-reaching professionalism. I worked
-                      with Sayed to bring a next generation AI empowered
-                      diabetes care management system into United Arab Emirates,
-                      Middle East and South Asia. With Sayed, the business model
-                      was transformed to fit the local private healthcare market
-                      and distributor channel business. In less than a year we
-                      were able to setup partnerships for India, Pakistan, and
-                      UAE. Without Sayed's experience, relationships, and
-                      passion, none of the above would have been possible. Mr.
-                      Sayed Jawed and Vendor Junction is an excellent choice for
-                      a partner to bring innovative and disruptive products and
-                      services into the region. I can highly recommend Sayed and
-                      Vendor Junction for the job.
-                    </p>
-                    <h4 class="testimonial-one__client-name">
-                      Paulus Carpelan
-                    </h4>
-                    <p class="testimonial-one__client-title">
-                      SVP Business Development - Quattro Folia Oy
-                    </p>
-                  </div>
-                </div>
-                <!--Testimonial One Single-->
-                <div class="testimonial-one__single">
-                  <div class="testimonial-one__client-info">
-                    <div class="testimonial-one__client-img">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/2.jpg" alt="" />
-                      <div class="testimonial-one__quote">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial-one__content">
-                    <p class="testimonial-one__text">
-                      I started my collaboration with Vendor Junction (VJ) in
-                      June 2016. I am very pleased with Mr. Sayed Jawed's
-                      knowledge and the way how he guided us how to enter Middle
-                      East Markets specifically in United Arab Emirates (UAE).
-                      With Vendor Junction's support, the business development
-                      process and the business planning helped us to understand
-                      the highly competitive UAE furniture market. The VJ
-                      process helped us to evaluate in practice why, when, and
-                      how to enter to the market. Avarte Group Ltd. got good
-                      cost estimations, a guided step-by-step action plan how to
-                      set up sales channels in UAE and future plans for Saudi
-                      Arabia and Kuwait. If you consider entering to Middle East
-                      market, you will need a reliable local partner. I can
-                      warmly recommend Mr. Sayed Jawed, Vendor Junction
-                      International Business Development and Exports Trade
-                      consulting services to you. Set up your business goals
-                      with VJ, budget it well, be part of the work, be
-                      open-minded, commit the plan and your Middle East business
-                      will succeed!
-                    </p>
-                    <h4 class="testimonial-one__client-name">Jari Ijäs</h4>
-                    <p class="testimonial-one__client-title">
-                      Former CEO - Avarte Group Ltd
-                    </p>
-                  </div>
-                </div>
-                <!--Testimonial One Single-->
-                <div class="testimonial-one__single">
-                  <div class="testimonial-one__client-info">
-                    <div class="testimonial-one__client-img">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/3.jpg" alt="" />
-                      <div class="testimonial-one__quote">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial-one__content">
-                    <p class="testimonial-one__text">
-                      With Vendor Junction, we were able to enter in the
-                      Pakistan’s multi-million Health Care market less than 4
-                      months with new product positioning for the local market,
-                      multiple sale channels, high visibility through media / TV
-                      channels and direct access to C-level decision makers.
-                      Vendor Junction secured 2 million Euro initial purchase
-                      orders for iSTOC and is actively extending our business
-                      with proven business model across Middle East, Africa, and
-                      South Asia markets.
-                    </p>
-                    <h4 class="testimonial-one__client-name">
-                      Jarmo Järvenpää
-                    </h4>
-                    <p class="testimonial-one__client-title">
-                      Founder & CEO – iSTOC Oy
-                    </p>
-                  </div>
-                </div>
-                <!--Testimonial One Single-->
-                <div class="testimonial-one__single">
-                  <div class="testimonial-one__client-info">
-                    <div class="testimonial-one__client-img">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/4.jpeg" alt="" />
-                      <div class="testimonial-one__quote">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial-one__content">
-                    <p class="testimonial-one__text">
-                      Having the opportunity to work closely with Sayed, he
-                      comes highly recommended indeed. His application to the
-                      task or tasks at hand, his energy and work ethics to
-                      deliver on the business objectives and achieve are second
-                      to none. He was always on point, and as a fully committed
-                      professional for driving business throughout a diverse
-                      geographic region, he has a solid and pragmatic approach
-                      to business, a strong business manager with excellent
-                      communication and people skills, and with an eye for
-                      detail, whilst managing an extensive and dynamic team make
-                      Sayed a truly outstanding business leader.
-                    </p>
-                    <h4 class="testimonial-one__client-name">Aaron Fright</h4>
-                    <p class="testimonial-one__client-title">
-                      Regional Director, Emerging Markets - SMART
-                    </p>
-                  </div>
-                </div>
-                <!--Testimonial One Single-->
-                <div class="testimonial-one__single">
-                  <div class="testimonial-one__client-info">
-                    <div class="testimonial-one__client-img">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/5.jpeg" alt="" />
-                      <div class="testimonial-one__quote">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/quote-icon.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial-one__content">
-                    <p class="testimonial-one__text">
-                      I had the pleasure of working with Sayed during my time in
-                      Linksys / Cisco. During this time Sayed played a key role
-                      in securing massive growth in the MEA region year after
-                      year. Sayed managed this with his extreme work energy, his
-                      unstoppable creativity, and the fact that he has a strong
-                      relationship built on trust with his customers and
-                      partners. Sayed had respect from top to bottom in Cisco,
-                      which he won because of his great personality, winning
-                      mentality and simply because he created amazing results.
-                      only my warmest recommendation and congratulate any
-                      company that decides to work with Sayed.
-                    </p>
-                    <h4 class="testimonial-one__client-name">
-                      Tomas Sørensen Boye
-                    </h4>
-                    <p class="testimonial-one__client-title">
-                      CEO Europe and CCO - AXON Networks
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="welcome-one__find-solutions"
-                style="margin-bottom: 1em"
-              >
-                <p class="welcome-one__find-solutions-text">
-                  <a href="what-we-do/references">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Testimonial One End-->
-
-      <!--Trusted One Start-->
-      <section class="trusted-one">
-        <div class="container">
-          <div class="trusted-one__inner">
-            <div class="trusted-one__left">
-              <h3 class="trusted-one__content">Our Clients</h3>
-            </div>
-            <div class="trusted-one__right">
-              <ul class="list-unstyled trusted-one__content-box">
-                <li
-                  class="trusted one__single wow fadeInLeft"
-                  data-wow-delay="100ms"
-                >
-                  <div class="trusted-one__icon">
-                    <span class="icon-briefcase"></span>
-                  </div>
-                  <h3 class="trusted-one__title">
-                    Start-Ups <br />ready for Commercialization
-                  </h3>
-                </li>
-                <li
-                  class="trusted one__single wow fadeInLeft"
-                  data-wow-delay="200ms"
-                >
-                  <div class="trusted-one__icon">
-                    <span class="icon-bar-chart"></span>
-                  </div>
-                  <h3 class="trusted-one__title">
-                    SMEs planning for International Growth
-                  </h3>
-                </li>
-                <li
-                  class="trusted one__single wow fadeInLeft"
-                  data-wow-delay="300ms"
-                >
-                  <div class="trusted-one__icon">
-                    <span class="icon-team-leader"></span>
-                  </div>
-                  <h3 class="trusted-one__title">
-                    <a href="#"
-                      >Pilot Markets for Products & Services</a
-                    >
-                  </h3>
-                </li>
-              </ul>
-
-              <div class="cllogomn">
-                <div
-                  class="thm-swiper__slider swiper-container"
-                  data-swiper-options='{"spaceBetween": 50, "slidesPerView": 5, "autoplay": { "delay": 2000 }, "breakpoints": {
-                    "0": {
-                        "spaceBetween": 20,
-                        "slidesPerView": 2
-                    },
-                    "375": {
-                        "spaceBetween": 20,
-                        "slidesPerView": 2
-                    },
-                    "575": {
-                        "spaceBetween": 20,
-                        "slidesPerView": 3
-                    },
-                    "767": {
-                        "spaceBetween": 20,
-                        "slidesPerView": 4
-                    },
-                    "991": {
-                        "spaceBetween": 20,
-                        "slidesPerView": 5
-                    },
-                    "1199": {
-                        "spaceBetween": 20,
-                        "slidesPerView": 5
-                    }
-                }}'
-                >
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-1-1.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-2.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-3.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-4.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-5.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-6.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-7.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-8.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-9.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-10.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-11.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-12.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-13.jpg" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/brand-14.jpg" alt="" />
-                    </div>
-
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl1.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl2.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl3.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl4.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl5.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl6.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl7.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl8.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl9.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl10.png" alt="" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/cl11.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="brand-one">
-        <div class="container">
-          <div class="section-title text-center">
-            <span class="section-title__tagline">Vendor Junction</span>
-            <h2 class="section-title__title">Alliance Partners</h2>
-          </div>
-
-          <div class="alliance_partners_logo text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap1.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap2.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap3.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap4.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap5.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap6.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap7.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap8.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap9.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap10.png" alt="" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/brand/ap11.png" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <section class="news-one">
-        <div class="news-one-shape-1 shapemover2"></div>
-        <div class="news-one-shape-2 float-bob-x-2"></div>
-        <div class="container">
-          <div class="section-title text-center">
-            <span class="section-title__tagline">What’s Happening</span>
-            <h2 class="section-title__title">News & Articles</h2>
-          </div>
-          <div class="row">
-
-          <?php 
-            // the query
-            $the_query = new WP_Query( array(
-                'posts_per_page' => 3,
-            )); 
-          ?>
-
-          <?php if ( $the_query->have_posts() ) : ?>
-            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-              <!--News One Single-->
-              <div class="news-one__single">
-                <div class="news-one__img">
-                  <img src=" <?php the_post_thumbnail_url(); ?> " alt="" />
-                  <a href="<?php the_permalink(); ?>">
-                    <span class="news-one__plus"></span>
-                  </a>
-                </div>
-                <div class="news-one__content">
-                  <p class="news-one__sub-title">
-                  <?php 
-                    $categories = get_the_category();
-
-                    if ( ! empty( $categories ) ) {
-                        echo esc_html( $categories[0]->name );	
-                    }
-                    ?>
-                  </p>
-                  <h3 class="news-one__title">
-                    <a href="<?php the_permalink(); ?>"
-                      ><?php the_title(); ?></a
-                    >
-                  </h3>
-                  <ul class="list-unstyled news-one__meta">
-                    <li>
-                      <a href="<?php the_permalink(); ?>"
-                        ><i class="far fa-clock"></i>  <?php the_date(); ?></a
+          <div class="footer__btm-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4">
+                  <div class="footer__copyright-3">
+                    <p>
+                      © 2022 - 2025 | Alrights reserved by
+                      <a href="https://wealcoder.com/" target="_blank"
+                        >Wealcoder</a
                       >
-                    </li>
-              
-                  </ul>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xxl-8 col-xl-8 col-lg-8">
+                  <div class="footer__nav-2">
+                    <ul class="footer-menu-2 menu-anim">
+                      <li><a href="about.html">about us</a></li>
+                      <li><a href="contact.html">contact</a></li>
+                      <li><a href="career.html">Career</a></li>
+                      <li><a href="faq.html">FAQs</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
-
-
-            <?php endwhile; endif; ?>
-            <?php wp_reset_postdata(); ?>
-                      
-
-            <div class="welcome-one__find-solutions" style="margin-top: 1em">
-              <p class="welcome-one__find-solutions-text">
-                <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Read More</a>
-              </p>
-            </div>
           </div>
-        </div>
-      </section>
-      <!--News One End-->
+        </footer>
+        <!-- Footer area end -->
+      </div>
+    </div>
+
 
 
 <?php get_footer(); ?>
